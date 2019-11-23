@@ -1,0 +1,20 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+# streetmaps
+
+Just copying over the methodology found here: https://ggplot2tutor.com/streetmaps/streetmaps/. Code can be found in `figs-raw`, output shown below:
+
+```{r plot, echo=FALSE, out.width = '100%'}
+knitr::include_graphics(file.path(here::here(), "figs", "both_plots.jpg"))
+```
+
